@@ -56,3 +56,9 @@
    - 데이터를 이용해야하면 ModelAndView Type, View만 보여주면되면 String Type  
   
    Get 형식, Post 형식 구분하여 Mapping  
+
+--------
+자동 생성 Annotation
+- Repository
+- Service
+- Controller
