@@ -13,7 +13,8 @@
    sqlSessionFactoryBean: DB와 mapper 연결, ORM typeAliases 지정  
    
    xsi:schemaLocation url 추가  
-   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd  
+   http://www.springframework.org/schema/context  
+   http://www.springframework.org/schema/context/spring-context-3.1.xsd  
      
    db.properties 파일을 해당 패키지에 넣기  
    <context:property-placeholder>로 db.properties 데이터 가져오기 - xmlns:context 추가  
