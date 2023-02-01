@@ -31,3 +31,9 @@
   
 --------
 ### Spring MVC Start
+1. Main 페이지 jsp파일 생성  
+   jstl 이용을 위해 taglib 작성  
+   <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>  
+   
+   JSTL 문법 알아놓기  
+   <c:choose> : Switch 문
