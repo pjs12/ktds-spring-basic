@@ -40,3 +40,19 @@
    - <c:when> : Switch case 역할  
    - <c:otherwise> : Switch default 역할  
    - <c:forEach> : 향상된 for문  
+  
+2. DAO interface, DAOImpl class 생성  
+   mapper에서 생성한 query를 이어줌  
+   - mapper에서 설정한 parameterType, resultType 유의하여 메소드 생성  
+   - Autowired로 SqlSessionTemplate 객체 생성하여 메소드 생성  
+  
+3. Service interface, ServiceImpl class 생성  
+   DAO에서 생성한 메소드 이어줌  
+   - Autowired로 DAO 객체 생성하여 메소드 생성  
+  
+4. Controller class 생성  
+   해당 url에 Service에서 생성한 메소드를 View에 이어줌  
+   - Autowired로 Service 객체 생성하여 메소드 생성  
+   - 데이터를 이용해야하면 ModelAndView Type, View만 보여주면되면 String Type  
+  
+   Get 형식, Post 형식 구분하여 Mapping  
