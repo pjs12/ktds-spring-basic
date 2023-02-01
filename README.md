@@ -59,6 +59,8 @@
 
 --------
 자동 생성 Annotation
+- servlet-context.xml -> <context:component-scan>의 base-package의 path 아래에서 생성
 - Repository
 - Service
 - Controller
+- Component
