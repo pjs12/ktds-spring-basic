@@ -36,4 +36,7 @@
    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>  
    
    JSTL 문법 알아놓기  
-   <c:choose> : Switch 문
+   - <c:choose> : Switch 문  
+   - <c:when> : Switch case 역할  
+   - <c:otherwise> : Switch default 역할  
+   - <c:forEach> : 향상된 for문  
