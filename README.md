@@ -22,7 +22,9 @@
 5. mapper xml파일 생성  
    dtd 추가, mapper 껍데기 생성  
    DB 데이터 추가, 수정, 삭제하는 query 생성  
-   - id: DAO에서 연결할 mapper의 method, parameterType: method의 파라미터 Type, resultType: method의 return Type  
+   - id: DAO에서 연결할 mapper의 method  
+   - parameterType: method의 파라미터 Type  
+   - resultType: method의 return Type  
   
 6. Spring에서 DB 데이터를 담고 있을 DTO class 생성  
 7. Tomcat 정상 작동하는지 확인  
